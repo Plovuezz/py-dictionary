@@ -136,7 +136,7 @@ class Dictionary:
                 else:
                     return return_value
             elif self.cells[index] == item_to_find:
-                item_to_return = item_to_find
+                item_to_return = self.cells[index]
                 self.cells[index] = None
                 break
             else:
